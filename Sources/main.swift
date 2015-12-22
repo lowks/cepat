@@ -8,4 +8,8 @@ for i in 1...5 {
 	for name in ["hoho", "haha", "hehe"] {
 		print("Hello, \(name)!");
 	}
+
+	for (name, age) in ["david": 5, "bodoh": 6] {
+		print (name, age)
+	}
 }
