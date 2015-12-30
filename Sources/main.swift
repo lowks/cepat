@@ -7,6 +7,7 @@ for i in 1...5 {
 	print_hello_world();
 	let message = "helloworl";
 	let message2 = "";
+	let message3 = "low";
 	for name in ["hoho", "haha", "hehe"] {
 		print("Hello, \(name)!");
 	}
@@ -31,6 +32,7 @@ for i in 1...5 {
 	}
 
 	if message2.isEmpty {
-		print("message 2 is empty")
+		print("message 2 is empty");
+		print(message3 + " kian seong");
 	}
 }
