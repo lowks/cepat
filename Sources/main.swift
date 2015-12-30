@@ -6,6 +6,7 @@ func print_hello_world() {
 for i in 1...5 {
 	print_hello_world();
 	let message = "helloworl";
+	let message2 = "";
 	for name in ["hoho", "haha", "hehe"] {
 		print("Hello, \(name)!");
 	}
@@ -27,5 +28,9 @@ for i in 1...5 {
 		print("I am true")
 	} else {
 		print("I am false")
+	}
+
+	if message2.isEmpty {
+		print("message 2 is empty")
 	}
 }
