@@ -1,11 +1,13 @@
-func print_hello_world() {
+func hello_world() -> String {
 	let message = "helloworld"
-	print(message);
+	return message;
 }
 
 for i in 1...5 {
-	print_hello_world();
-	let message = "helloworl";
+	print(hello_world());
+	let message = "helloworld";
+	let message2 = "";
+	let message3 = "low";
 	for name in ["hoho", "haha", "hehe"] {
 		print("Hello, \(name)!");
 	}
@@ -28,4 +30,12 @@ for i in 1...5 {
 	} else {
 		print("I am false")
 	}
+
+	if message2.isEmpty {
+		print("message 2 is empty");
+		print(message3 + " kian seong");
+	}
+	let multiplier = 3
+	let message23 = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+	print(message23)
 }
