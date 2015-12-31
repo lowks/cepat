@@ -3,6 +3,11 @@ func hello_world() -> String {
 	return message;
 }
 
+func sayHello(name: String) -> String {
+	let message = "Hello to " + name
+	return message;
+}
+
 for i in 1...5 {
 	print(hello_world());
 	let message = "helloworld";
@@ -37,5 +42,6 @@ for i in 1...5 {
 	}
 	let multiplier = 3
 	let message23 = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+	print(sayHello("Gooinaldson"))
 	print(message23)
 }
